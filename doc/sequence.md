@@ -1,7 +1,3 @@
-
----
-
-### 📄 `doc/sequence.md`
 ```markdown
 # Sequence Diagram
 
