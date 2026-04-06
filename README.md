@@ -1,29 +1,13 @@
-# 🏠 Система «Теремок» — UML диаграммы
+# Теремок
 
-## Use Case Diagram (Варианты использования)
+Система «Управление доступом».
 
-![Use Case](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/pabandaladze-code/termok-uml/main/diagrams/use-case.puml)
+## Диаграммы
 
----
-
-## Class Diagram (Диаграмма классов)
-
-![Class](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/pabandaladze-code/termok-uml/main/diagrams/class.puml)
-
----
-
-## Activity Diagram (Диаграмма активности)
-
-![Activity](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/pabandaladze-code/termok-uml/main/diagrams/activity.puml)
-
----
-
-## Sequence Diagram (Диаграмма последовательности)
-
-![Sequence](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/pabandaladze-code/termok-uml/main/diagrams/sequence.puml)
-
----
-
-## State Diagram (Диаграмма состояний)
-
-![State](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/pabandaladze-code/termok-uml/main/diagrams/state.puml)
+| Диаграмма | Описание | Файл |
+|-----------|----------|------|
+| Use Case | Варианты использования системы | [doc/use_case.md](doc/use_case.md) |
+| Class | Диаграмма классов (ООП структура) | [doc/class.md](doc/class.md) |
+| Activity | Алгоритм работы системы | [doc/activity.md](doc/activity.md) |
+| Sequence | Пошаговое взаимодействие объектов | [doc/sequence.md](doc/sequence.md) |
+| State | Жизненный цикл теремка | [doc/state.md](doc/state.md) |
