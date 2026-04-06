@@ -1,7 +1,3 @@
-
----
-
-### 📄 `doc/state.md`
 ```markdown
 # State Diagram
 
