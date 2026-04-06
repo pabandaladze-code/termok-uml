@@ -1,0 +1,22 @@
+@startuml
+skinparam state {
+  BackgroundColor<<Destroyed>> #pink
+}
+
+title Жизненный цикл теремка
+
+[*] --> Empty : создание
+
+Empty --> Occupied : заселение первого зверя
+Occupied --> Full : достигнут лимит веса
+Full --> Occupied : кто-то покинул
+Occupied --> Empty : все покинули
+
+Empty --> Destroyed : пришёл Медведь
+Occupied --> Destroyed : пришёл Медведь
+Full --> Destroyed : пришёл Медведь
+
+Destroyed --> [*] : конец
+
+note left of Destroyed : Теремок разрушен
+@enduml
