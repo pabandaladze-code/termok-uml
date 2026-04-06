@@ -1,0 +1,26 @@
+@startuml
+left to right direction
+
+actor "Мышка" as Mouse
+actor "Лягушка" as Frog
+actor "Заяц" as Hare
+actor "Лиса" as Fox
+actor "Волк" as Wolf
+actor "Медведь" as Bear
+
+package "Управление теремком" {
+  usecase "Запрос на поселение" as Request
+  usecase "Проверка свободных мест" as CheckSpace
+  usecase "Разрушить теремок" as Destroy
+}
+
+Mouse --> Request
+Frog --> Request
+Hare --> Request
+Fox --> Request
+Wolf --> Request
+Bear --> Request
+
+Request ..> CheckSpace : <<include>>
+Request ..> Destroy : <<extend>> (если зверь = Медведь)
+@enduml
