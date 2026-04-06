@@ -1,7 +1,3 @@
-
----
-
-### 📄 `doc/class.md`
 ```markdown
 # Class Diagram
 
